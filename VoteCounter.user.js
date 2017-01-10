@@ -1,10 +1,11 @@
 // ==UserScript==
 // @name         VoteCounter
 // @namespace    http://fidessa.com/
-// @version      0.4
+// @version      0.5
 // @description  Automatically tally votes in Fidessa photo contest threads
 // @author       Justin Jonsson
 // @match        http*://www.flickr.com/groups/ccgalleria/discuss*
+// @downloadURL  https://github.com/JustinJonsson/TM_FlickrVoteCounter/raw/master/VoteCounter.user.js
 // ==/UserScript==
 
 // ==Changelog==
@@ -12,6 +13,7 @@
 // 0.2 - only run on threads with "vote" (case-insensitive) in the title.
 // 0.3 - refactor & clean-up
 // 0.4 - support Classic Groups experience, not just the New Groups Experience Beta.
+// 0.5 - support auto-updating from github.
 
 window.onload = (function() {
     'use strict';
